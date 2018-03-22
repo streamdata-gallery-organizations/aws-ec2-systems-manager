@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListCommandInvocations&k=1:
+  /?Action=ListCommandInvocations:
     get:
       summary: ' List Command Invocations '
       description: An invocation is copy of a command sent to a specific instance
