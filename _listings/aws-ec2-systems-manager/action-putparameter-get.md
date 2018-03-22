@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutParameter&k=1:
+  /?Action=PutParameter:
     get:
       summary: ' Put Parameter '
       description: Add one or more paramaters to the system
