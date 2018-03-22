@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetCommandInvocation&k=1:
+  /?Action=GetCommandInvocation:
     get:
       summary: ' Get Command Invocation '
       description: Returns detailed information about command execution for an invocation
