@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMaintenanceWindowTargets&k=1:
+  /?Action=DescribeMaintenanceWindowTargets:
     get:
       summary: ' Describe Maintenance Window Targets '
       description: Lists the targets registered with the Maintenance Window
