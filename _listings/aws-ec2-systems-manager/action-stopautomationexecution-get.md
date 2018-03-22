@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopAutomationExecution&k=1:
+  /?Action=StopAutomationExecution:
     get:
       summary: ' Stop Automation Execution '
       description: Stop an Automation that is currently executing
