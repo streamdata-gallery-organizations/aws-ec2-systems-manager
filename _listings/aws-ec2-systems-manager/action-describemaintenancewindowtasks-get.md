@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMaintenanceWindowTasks&k=1:
+  /?Action=DescribeMaintenanceWindowTasks:
     get:
       summary: ' Describe Maintenance Window Tasks '
       description: Lists the tasks in a Maintenance Window
