@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterManagedInstance&k=1:
+  /?Action=DeregisterManagedInstance:
     get:
       summary: ' Deregister Managed Instance '
       description: Removes the server or virtual machine from the list of registered
