@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteParameter&k=1:
+  /?Action=DeleteParameter:
     get:
       summary: ' Delete Parameter '
       description: Delete a parameter from the system
