@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreatePatchBaseline&k=1:
+  /?Action=CreatePatchBaseline:
     get:
       summary: ' Create Patch Baseline '
       description: Creates a patch baseline
