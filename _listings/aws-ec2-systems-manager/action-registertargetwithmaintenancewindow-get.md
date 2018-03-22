@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterTargetWithMaintenanceWindow&k=1:
+  /?Action=RegisterTargetWithMaintenanceWindow:
     get:
       summary: ' Register Target With Maintenance Window '
       description: Registers a target with a Maintenance Window
