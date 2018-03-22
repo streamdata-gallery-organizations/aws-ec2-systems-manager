@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterPatchBaselineForPatchGroup&k=1:
+  /?Action=RegisterPatchBaselineForPatchGroup:
     get:
       summary: ' Register Patch Baseline For Patch Group '
       description: Registers a patch baseline for a patch group
