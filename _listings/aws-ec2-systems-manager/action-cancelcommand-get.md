@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelCommand&k=1:
+  /?Action=CancelCommand:
     get:
       summary: ' Cancel Command '
       description: Attempts to cancel the command specified by the Command ID
