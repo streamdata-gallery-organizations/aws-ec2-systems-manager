@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDocument&k=1:
+  /?Action=DescribeDocument:
     get:
       summary: ' Describe Document '
       description: Describes the specified SSM document
