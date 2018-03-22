@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTagsForResource&k=1:
+  /?Action=ListTagsForResource:
     get:
       summary: ' List Tags For Resource '
       description: Returns a list of the tags assigned to the specified resource
