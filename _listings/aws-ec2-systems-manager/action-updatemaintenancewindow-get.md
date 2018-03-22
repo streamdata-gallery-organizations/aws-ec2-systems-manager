@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateMaintenanceWindow&k=1:
+  /?Action=UpdateMaintenanceWindow:
     get:
       summary: ' Update Maintenance Window '
       description: Updates an existing Maintenance Window
