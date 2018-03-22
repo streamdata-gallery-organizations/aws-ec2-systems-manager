@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDocumentPermission&k=1:
+  /?Action=ModifyDocumentPermission:
     get:
       summary: ' Modify Document Permission '
       description: Share a document publicly or privately
