@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribePatchBaselines&k=1:
+  /?Action=DescribePatchBaselines:
     get:
       summary: ' Describe Patch Baselines '
       description: Lists the patch baselines in your AWS account
