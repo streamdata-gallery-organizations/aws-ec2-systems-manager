@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDocumentPermission&k=1:
+  /?Action=DescribeDocumentPermission:
     get:
       summary: ' Describe Document Permission '
       description: Describes the permissions for an SSM document
