@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetPatchBaseline&k=1:
+  /?Action=GetPatchBaseline:
     get:
       summary: ' Get Patch Baseline '
       description: Retrieves information about a patch baseline
