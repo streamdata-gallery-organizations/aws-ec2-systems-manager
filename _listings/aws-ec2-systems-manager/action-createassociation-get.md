@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateAssociation&k=1:
+  /?Action=CreateAssociation:
     get:
       summary: ' Create Association '
       description: Associates the specified SSM document with the specified instances
