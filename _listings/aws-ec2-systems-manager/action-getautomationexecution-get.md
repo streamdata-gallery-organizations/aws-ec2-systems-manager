@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetAutomationExecution&k=1:
+  /?Action=GetAutomationExecution:
     get:
       summary: ' Get Automation Execution '
       description: Get detailed information about a particular Automation execution
