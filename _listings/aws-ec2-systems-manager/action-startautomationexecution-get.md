@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartAutomationExecution&k=1:
+  /?Action=StartAutomationExecution:
     get:
       summary: ' Start Automation Execution '
       description: Initiates execution of an Automation document
