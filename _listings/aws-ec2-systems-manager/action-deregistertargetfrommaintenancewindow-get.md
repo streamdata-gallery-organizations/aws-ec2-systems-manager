@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterTargetFromMaintenanceWindow&k=1:
+  /?Action=DeregisterTargetFromMaintenanceWindow:
     get:
       summary: ' Deregister Target From Maintenance Window '
       description: Removes a target from a Maintenance Window
