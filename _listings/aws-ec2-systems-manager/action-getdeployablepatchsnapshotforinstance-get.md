@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDeployablePatchSnapshotForInstance&k=1:
+  /?Action=GetDeployablePatchSnapshotForInstance:
     get:
       summary: ' Get Deployable Patch Snapshot For Instance '
       description: Retrieves the current snapshot for the patch baseline the instance
