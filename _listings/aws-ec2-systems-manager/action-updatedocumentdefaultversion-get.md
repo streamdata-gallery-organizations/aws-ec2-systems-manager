@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateDocumentDefaultVersion&k=1:
+  /?Action=UpdateDocumentDefaultVersion:
     get:
       summary: ' Update Document Default Version '
       description: Set the default version of a document
