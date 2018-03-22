@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateAssociation&k=1:
+  /?Action=UpdateAssociation:
     get:
       summary: ' Update Association '
       description: Updates an association
