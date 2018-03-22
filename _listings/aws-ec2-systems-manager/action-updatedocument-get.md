@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateDocument&k=1:
+  /?Action=UpdateDocument:
     get:
       summary: ' Update Document '
       description: The document you want to update
