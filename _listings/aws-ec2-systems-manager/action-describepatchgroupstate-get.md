@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribePatchGroupState&k=1:
+  /?Action=DescribePatchGroupState:
     get:
       summary: ' Describe Patch Group State '
       description: Returns high-level aggregated patch compliance state for a patch
