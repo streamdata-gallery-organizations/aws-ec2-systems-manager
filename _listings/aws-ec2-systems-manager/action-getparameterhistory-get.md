@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetParameterHistory&k=1:
+  /?Action=GetParameterHistory:
     get:
       summary: ' Get Parameter History '
       description: Query a list of all parameters used by the AWS account
