@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutInventory&k=1:
+  /?Action=PutInventory:
     get:
       summary: ' Put Inventory '
       description: Bulk update custom inventory items on one more instance
