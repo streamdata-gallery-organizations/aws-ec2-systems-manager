@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterTaskFromMaintenanceWindow&k=1:
+  /?Action=DeregisterTaskFromMaintenanceWindow:
     get:
       summary: ' Deregister Task From Maintenance Window '
       description: Removes a task from a Maintenance Window
