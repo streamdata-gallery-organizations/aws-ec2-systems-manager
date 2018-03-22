@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAvailablePatches&k=1:
+  /?Action=DescribeAvailablePatches:
     get:
       summary: ' Describe Available Patches '
       description: Lists all patches that could possibly be included in a patch baseline
