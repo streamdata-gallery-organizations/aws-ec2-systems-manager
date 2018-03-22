@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterTaskWithMaintenanceWindow&k=1:
+  /?Action=RegisterTaskWithMaintenanceWindow:
     get:
       summary: ' Register Task With Maintenance Window '
       description: Adds a new task to a Maintenance Window
