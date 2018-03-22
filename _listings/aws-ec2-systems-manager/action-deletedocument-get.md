@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDocument&k=1:
+  /?Action=DeleteDocument:
     get:
       summary: ' Delete Document '
       description: Deletes the SSM document and all instance associations to the document
