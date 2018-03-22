@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeletePatchBaseline&k=1:
+  /?Action=DeletePatchBaseline:
     get:
       summary: ' Delete Patch Baseline '
       description: Deletes a patch baseline
