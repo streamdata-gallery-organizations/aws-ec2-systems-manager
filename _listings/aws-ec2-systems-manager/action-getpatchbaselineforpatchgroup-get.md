@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetPatchBaselineForPatchGroup&k=1:
+  /?Action=GetPatchBaselineForPatchGroup:
     get:
       summary: ' Get Patch Baseline For Patch Group '
       description: Retrieves the patch baseline that should be used for the specified
