@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteAssociation&k=1:
+  /?Action=DeleteAssociation:
     get:
       summary: ' Delete Association '
       description: Disassociates the specified SSM document from the specified instance
