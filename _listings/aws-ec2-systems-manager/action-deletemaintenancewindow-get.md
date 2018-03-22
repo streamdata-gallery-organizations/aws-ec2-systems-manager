@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteMaintenanceWindow&k=1:
+  /?Action=DeleteMaintenanceWindow:
     get:
       summary: ' Delete Maintenance Window '
       description: Deletes a Maintenance Window
