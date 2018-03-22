@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterPatchBaselineForPatchGroup&k=1:
+  /?Action=DeregisterPatchBaselineForPatchGroup:
     get:
       summary: ' Deregister Patch Baseline For Patch Group '
       description: Removes a patch group from a patch baseline
