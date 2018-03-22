@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDefaultPatchBaseline&k=1:
+  /?Action=GetDefaultPatchBaseline:
     get:
       summary: ' Get Default Patch Baseline '
       description: Retrieves the default patch baseline
