@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInstancePatches&k=1:
+  /?Action=DescribeInstancePatches:
     get:
       summary: ' Describe Instance Patches '
       description: Retrieves information about the patches on the specified instance
