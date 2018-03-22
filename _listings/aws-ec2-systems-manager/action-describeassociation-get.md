@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAssociation&k=1:
+  /?Action=DescribeAssociation:
     get:
       summary: ' Describe Association '
       description: Describes the associations for the specified SSM document or instance
