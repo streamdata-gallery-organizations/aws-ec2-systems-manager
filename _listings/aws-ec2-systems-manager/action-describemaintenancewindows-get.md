@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMaintenanceWindows&k=1:
+  /?Action=DescribeMaintenanceWindows:
     get:
       summary: ' Describe Maintenance Windows '
       description: Retrieves the Maintenance Windows in an AWS account
