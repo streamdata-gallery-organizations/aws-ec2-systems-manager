@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteActivation&k=1:
+  /?Action=DeleteActivation:
     get:
       summary: ' Delete Activation '
       description: Deletes an activation
