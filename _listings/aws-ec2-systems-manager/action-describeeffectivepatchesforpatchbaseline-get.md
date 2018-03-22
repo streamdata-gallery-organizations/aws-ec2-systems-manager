@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEffectivePatchesForPatchBaseline&k=1:
+  /?Action=DescribeEffectivePatchesForPatchBaseline:
     get:
       summary: ' Describe Effective Patches For Patch Baseline '
       description: Retrieves the current effective patches (the patch and the approval
