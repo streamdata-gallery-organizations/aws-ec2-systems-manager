@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SendCommand&k=1:
+  /?Action=SendCommand:
     get:
       summary: ' Send Command '
       description: Executes commands on one or more remote instances
