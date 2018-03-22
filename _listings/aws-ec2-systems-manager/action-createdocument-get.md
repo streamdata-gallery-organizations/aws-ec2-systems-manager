@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDocument&k=1:
+  /?Action=CreateDocument:
     get:
       summary: ' Create Document '
       description: Creates an SSM document
