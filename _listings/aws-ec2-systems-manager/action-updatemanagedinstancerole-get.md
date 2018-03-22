@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateManagedInstanceRole&k=1:
+  /?Action=UpdateManagedInstanceRole:
     get:
       summary: ' Update Managed Instance Role '
       description: |-
