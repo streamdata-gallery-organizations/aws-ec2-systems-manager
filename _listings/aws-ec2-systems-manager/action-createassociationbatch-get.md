@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateAssociationBatch&k=1:
+  /?Action=CreateAssociationBatch:
     get:
       summary: ' Create Association Batch '
       description: Associates the specified SSM document with the specified instances
