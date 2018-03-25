@@ -21,8 +21,8 @@ tags:
 - Deployment
 - Cloud
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-ec2-systems-manager/master/_listings/aws-ec2-systems-manager/apis.yaml
 specificationVersion: "0.14"
 apis:
